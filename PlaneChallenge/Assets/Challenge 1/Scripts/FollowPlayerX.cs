@@ -14,7 +14,7 @@ public class FollowPlayerX : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         // I lowkey have 0 idea what to do rn
         transform.position = plane.transform.position + offset;
